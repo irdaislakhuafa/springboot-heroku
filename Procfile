@@ -1,1 +1,1 @@
-web: mvn spring-boot:run
+java -Dserver.port=$PORT -jar target/springboot-heroku-0.0.1-SNAPSHOT.war

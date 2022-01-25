@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="${title}"></title>
+
+    <!-- import css -->
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h5 class="text-center py-auto mt-5">Hi... My name is <span th:text="${myName}"
+                class="text-capitalize text-primary"></span>.
+            Welcome to my Spring Boot Simple Page with Heroku</h5>
+    </div>
+
+    <!-- js -->
+    <link rel="stylesheet" href="/webjars/bootstrap/js/bootstrap.min.js">
+</body>
+
+</html>

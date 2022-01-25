@@ -12,6 +12,7 @@ public class IndexController {
     public String index(Model model) {
         try {
             model.addAttribute("title", "Spring Boot with Heroku Test");
+            model.addAttribute("myName", "irda islakhu afa");
         } catch (Exception e) {
             e.printStackTrace();
         }

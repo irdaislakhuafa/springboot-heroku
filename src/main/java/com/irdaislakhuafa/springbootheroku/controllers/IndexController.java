@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/test")
 public class IndexController {
-    @GetMapping
+    @GetMapping("/")
     public String index(Model model) {
         try {
             model.addAttribute("title", "Spring Boot with Heroku Test");
